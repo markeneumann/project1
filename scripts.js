@@ -4,8 +4,11 @@ const calculator = {
   avg(a,b,c) {
     if (a > 300 || b > 300 || c > 300){
       return "Value cannot be over 300";
-    }
+    } else if (a < 0 || b < 0 || c < 0){
+      return "Value cannot be less then 0";
+    } else {
    return "Your average for the games entered is "+(Number(a) + Number(b)+ Number(c)) / 3;
+ }
  }
 };
 
