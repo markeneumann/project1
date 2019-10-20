@@ -5,7 +5,7 @@ const calculator = {
     if (a > 300 || b > 300 || c > 300){
       return "Value cannot be over 300";
     }
-   return (Number(a) + Number(b)+ Number(c)) / 3;
+   return "Your average for the games entered is "+(Number(a) + Number(b)+ Number(c)) / 3;
  }
 };
 

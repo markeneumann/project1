@@ -1,0 +1,21 @@
+.content {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgb(238, 186, 118);
+  border-left-color: black;
+  border-left-width: 30px;
+  border-left-style: solid;
+  border-right-color: black;
+  border-right-width: 30px;
+  border-right-style: solid;
+}
+
+.content label {
+  font-size: 20px;
+}
+
+.gameInput {
+  margin-top: 17px;
+text-align: center;
+font-size: 20px;
+}
