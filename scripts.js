@@ -2,6 +2,9 @@
 
 const calculator = {
   avg(a,b,c) {
+    if (a > 300 || b > 300 || c > 300){
+      return "Value cannot be over 300";
+    }
    return (Number(a) + Number(b)+ Number(c)) / 3;
  }
 };
